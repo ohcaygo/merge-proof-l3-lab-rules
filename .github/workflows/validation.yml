@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Synthetic validation
-        run: exit 0
+        run: echo changed; exit 0
