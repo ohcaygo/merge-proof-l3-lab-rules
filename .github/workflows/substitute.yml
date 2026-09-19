@@ -1,0 +1,13 @@
+name: Different producer
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    name: l3 validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Synthetic validation
+        run: exit 0
