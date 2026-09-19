@@ -1,0 +1,9 @@
+name: Nonrequired 8
+on: pull_request
+permissions: {}
+jobs:
+  job:
+    name: nonrequired 8
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo synthetic
