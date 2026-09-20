@@ -1,1 +1,1 @@
-PASS eligible actor and event
+PASS excluded event
